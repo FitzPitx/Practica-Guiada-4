@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticaGuiada2</string>
+    <string name="tvVersionAndroidLB">1. Version Android:</string>
+    <string name="tvVersionAndroid"></string>
+    <string name="tvLight">2. Flashlight:</string>
+    <string name="btnOn">ON</string>
+    <string name="btnOff">OFF</string>
+    <string name="tvLevelBattery">3. Level Battery:</string>
+    <string name="tvLevelBattery_2"></string>
+    <string name="tvStorageLB">4. Storage:</string>
+    <string name="etNameFile">Name of File</string>
+    <string name="btnSaveFile">Save File</string>
+    <string name="tvState">5. Connection:</string>
+    <string name="tvBluetooth">6. Bluetooth:</string>
+    <string name="btnOnBluetooth">Encender</string>
+    <string name="tvBluetoothState">Bluetooth esta apagado</string>
+</resources>

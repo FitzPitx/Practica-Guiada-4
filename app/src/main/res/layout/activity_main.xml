@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersionAndroidLB"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersionAndroid"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLight"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOn"
+            app:cornerRadius="0dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:layout_marginRight="2.5dp"
+            />
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="2.5dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/btnOff" />
+    </TableRow>
+
+
+    <TextView
+        android:id="@+id/tvLevelBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLevelBattery"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="15sp"/>
+
+    <ProgressBar
+        android:id="@+id/pbLevelBattery"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"/>
+
+    <TextView
+        android:id="@+id/tvStorageLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvStorageLB"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etNameFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNameFile"
+        android:layout_marginBottom="15dp"/>
+
+    <ImageButton
+        android:id="@+id/btnSaveFile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/plussign"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvConectionLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvState"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/tvBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/tvBluetooth"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ivBluetooth"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tvBluetoothState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="@string/tvBluetoothState"
+        />
+
+    <Button
+        android:id="@+id/btnOnBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnOnBluetooth"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</LinearLayout>
